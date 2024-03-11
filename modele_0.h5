@@ -1,1 +1,1 @@
-# a compléter
+model.save("word2vec.h5") 
