@@ -1,9 +1,30 @@
 # mettre la liste des librairies nécessaires pour l'application
 
+''' Explications des librairies :
+
+    streamlit : La librairie principale nécessaire pour créer et exécuter des applications Web en Python.
+    pandas : Une librairie puissante pour la manipulation et l'analyse des données. Souvent utilisée avec Streamlit pour traiter les données avant de les afficher.
+    numpy : Utilisé pour les calculs numériques, en particulier ceux impliquant des tableaux multidimensionnels. C'est une dépendance commune pour le traitement des données.
+    matplotlib : Une librairie de base pour la création de visualisations statiques, interactives et animées en Python. Utile pour intégrer des graphiques dans vos applications Streamlit.
+    plotly : Une librairie pour créer des graphiques interactifs. Elle peut être utilisée à la place de ou en complément de Matplotlib pour des visualisations plus dynamiques et     
+    interactives dans Streamlit.
+    Pillow : Une librairie pour l'ouverture, la manipulation et la sauvegarde de nombreux formats de fichiers images différents. Elle est facile à utiliser pour des tâches de traitement 
+    d'images basiques.
+    opencv-python : Une librairie axée sur la vision par ordinateur et le traitement d'images, offrant une gamme étendue de fonctionnalités pour des tâches plus complexes.
+    nltk : Une suite d'outils pour des tâches de traitement du langage naturel (NLP), incluant le tokenization, le tagging, le parsing, et plus.
+    spacy : Une librairie moderne et rapide pour le traitement du langage naturel, conçue pour être utilisée en production. Elle offre des fonctionnalités pré-entraînées telles que la 
+    reconnaissance d'entités nommées, l'analyse de sentiments, et plus.
+'''
+
 streamlit==1.0.0
 pandas==1.1.5
 numpy==1.19.5
 matplotlib==3.3.4
 plotly==4.14.3
+Pillow==8.1.0 # pour le traitement d'images
+opencv-python==4.5.1.48 # alternative à Pillow pour le traitement d'images
+nltk==3.5 # pour le traitement du langage naturel
+spacy==3.0.5 # alternative à NLTK pour le traitement du langage naturel
+
 
 
