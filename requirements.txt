@@ -1,1 +1,8 @@
 # mettre la liste des librairies nécessaires pour l'application
+
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+
