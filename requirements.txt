@@ -1,8 +1,9 @@
 # mettre la liste des librairies nécessaires pour l'application
 
-streamlit
-pandas
-numpy
-matplotlib
-plotly
+streamlit==1.0.0
+pandas==1.1.5
+numpy==1.19.5
+matplotlib==3.3.4
+plotly==4.14.3
+
 
